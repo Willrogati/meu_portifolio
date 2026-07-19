@@ -25,7 +25,7 @@ export default function Home() {
           <h1 className="max-w-xs text-3xl font-semibold leading-20  text-black dark:text-zinc-50">
             Este é meu portifólio...
           </h1>
-          <p className="max-w-md text-lg leading-8   text-zinc-600 dark:text-zinc-400">
+          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
             Aqui estão alguns projetos executados por mim utilizando Ferramentas, linguagens e Frameworks como HTML, CSS e Tailwind CSS, React, Next.js e TypeScript. Você pode acessar o repositório do{" "}
             <a
               href="https://github.com/Willrogati"
@@ -33,19 +33,35 @@ export default function Home() {
             >
               GitHub
             </a>{" "}
-            ou entrar em contato através do meu{" "}
+            e pode entrar em contato através do meu{" "}
             <a
               href="https://www.linkedin.com/in/willian-rogati-44aa1a43"
               className="font-medium text-zinc-950 dark:text-zinc-50"
             >
               LinkedIn
             </a>{" "}
-            caso tenha interesse.
+            caso tenha interesse ou email:{" "}
+            <a
+              href="mailto:rogati.dev@gmail.com"
+              className="font-medium text-zinc-950 dark:text-zinc-50"
+            >
+              rogati.dev@gmail.com
+            </a>
           </p>
         </div>
         <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
           <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
+            className="flex 
+            h-12 w-full 
+            items-center 
+            justify-center 
+            gap-2 rounded-full 
+            bg-foreground 
+            px-5 
+            text-background 
+            transition-colors 
+            hover:bg-[#383838] dark:hover:bg-[#ccc] 
+            md:w-[158px]"
             href="https://github.com/Willrogati"
             target="_blank"
             rel="noopener noreferrer"
@@ -60,7 +76,16 @@ export default function Home() {
             GitHub
           </a>
           <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
+            className="flex 
+            h-12 w-full 
+            items-center 
+            justify-center 
+            rounded-full 
+            border border-solid border-black/[.08] 
+            px-5 transition-colors 
+            hover:border-transparent hover:bg-black/[.04]
+             dark:border-white/[.145] dark:hover:bg-[#1a1a1a] 
+             md:w-[158px]"
             href="https://www.linkedin.com/in/willian-rogati-44aa1a43"
             target="_blank"
             rel="noopener noreferrer"
@@ -74,20 +99,11 @@ export default function Home() {
             />
             LinkedIn
           </a>
-          <h2 className="text-sm text-zinc-600 dark:text-zinc-400">
-            email:{" "}
-            <a
-              href="mailto:rogati.dev@gmail.com"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              rogati.dev@gmail.com
-            </a>
-          </h2>
-          <footer className="text-sm text-zinc-600 dark:text-zinc-400">
-            &copy; {new Date().getFullYear()} Willian Rogati. Todos os direitos reservados.
-          </footer>
         </div>
       </main>
+      <footer className="text-sm text-zinc-600 dark:text-zinc-400">
+        &copy; {new Date().getFullYear()} Willian Rogati. Todos os direitos reservados.
+      </footer>
     </div>
   );
 }
