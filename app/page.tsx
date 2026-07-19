@@ -74,6 +74,18 @@ export default function Home() {
             />
             LinkedIn
           </a>
+          <h2 className="text-sm text-zinc-600 dark:text-zinc-400">
+            email:{" "}
+            <a
+              href="mailto:rogati.dev@gmail.com"
+              className="font-medium text-zinc-950 dark:text-zinc-50"
+            >
+              rogati.dev@gmail.com
+            </a>
+          </h2>
+          <footer className="text-sm text-zinc-600 dark:text-zinc-400">
+            &copy; {new Date().getFullYear()} Willian Rogati. Todos os direitos reservados.
+          </footer>
         </div>
       </main>
     </div>
