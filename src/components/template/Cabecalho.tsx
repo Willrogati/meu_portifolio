@@ -10,7 +10,7 @@ export default function Cabecalho(props: CabecalhoProps) {
             flex
             justify-between
             py-2 px-2
-            bg-white dark:bg-blue-900 
+            bg-white dark:bg-black
             
             "
         >

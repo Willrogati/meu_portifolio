@@ -11,13 +11,15 @@ export default function Titulo_cabecalho(props: Titulo_cabecalhoProps) {
 
 
         <div
-            className="
-             
+            className="flex
+            items-center
+            justify-center 
             text-3xl
             font-bold
             text-zinc-900 
             dark:text-white
-            bg-white dark:bg-red-900
+            bg-white dark:bg-black
+            hover:text-zinc-600 dark:hover:text-zinc-400
 
             ">
             <a href="/">Willian Rogati</a>

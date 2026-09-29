@@ -1,11 +1,10 @@
-import CarrosselProfissional from "";
-
+import CarrosselProfissional from "../../../../components/template/CarrosselProfissional";
 
 export default function projetos_git() {
     return (
         <div className=" justify-items-center-safe ">
             <h1>Projetos no GitHub</h1>
-            <button className="
+            <button className=" flex justify-center-safe
             bg-blue-500 
             hover:bg-blue-700 
             text-white 
