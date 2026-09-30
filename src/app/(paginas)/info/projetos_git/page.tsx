@@ -12,9 +12,11 @@ export default function projetos_git() {
             py-2 px-4
             rounded
             ">
-                <a href="https://github.com/Willrogati" target="_blank" rel="noopener noreferrer">github.com/Willrogati</a>
+                <a href="https://github.com/Willrogati" target="_blank" rel="noopener noreferrer">
+
+                    github.com/Willrogati</a>
             </button>
-            <CarrosselProfissional />
+
 
         </div>
     );

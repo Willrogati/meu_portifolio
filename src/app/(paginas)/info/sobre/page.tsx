@@ -15,7 +15,7 @@ export default function sobre() {
             <p>Cursando Engenharia de Computação na Univesp e sigo em formação continuada no desenvolvimento de software em paralelo pela COD3R na Formação DEV.
                 Ao longo da minha trajetória técnica, desenvolvi uma mentalidade lógica trabalhando com arquitetura de circuitos e programação de CLPs.
                 Essa facilidade com algoritmos facilitou minha migração para o ecossistema Web (JavaScript, TypeScript, React e Next.js e etc. .)
-                e para a linguagem Python já com uma base em linguagem C agora também se primorando em orientação a objetos com C++ e Java.</p>
+                e para a linguagem Python já com uma base em linguagem C agora também aprimorando-se em orientação a objetos com C++ e Java.</p>
             <p>O que me diferencia como desenvolvedor júnior é a maturidade profissional adquirida em ambientes críticos, onde a resiliência, a resolução ágil de problemas complexos e o trabalho em equipe são fundamentais.
             </p>
             <p>Além disso,

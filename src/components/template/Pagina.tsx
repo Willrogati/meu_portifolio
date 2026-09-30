@@ -3,6 +3,7 @@ import Cabecalho from "./Cabecalho";
 import Logo from "./Logo";
 import Menu from "./Menu";
 import Menu_item from "./Menu_item";
+import Minha_foto from "./Minha_foto";
 import Titulo_cabecalho from "./Titulo_cabecalho";
 
 export interface PaginaProps {
@@ -19,6 +20,7 @@ export default function Pagina(props: PaginaProps) {
         dark:bg-black">
 
             <Cabecalho>
+                <Minha_foto />
                 <Titulo_cabecalho />
                 <Menu>
                     <Menu_item href="/info/sobre" label="Sobre" />

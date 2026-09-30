@@ -9,22 +9,22 @@ const IMAGENS = [
 
 export default function CarrosselProfissional() {
     const [indiceAtual, setIndiceAtual] = useState(0);
-    const [estaPausado, setEstaPausado] = useState(false);
+    const [estaPausado, setEstaPausado] = useState(true);
 
     // Referência do container de rolagens para controlar os botões e indicadores
     const containerRef = useRef(null);
 
     // 1. Efeito de Auto-play baseado em scroll nativo
-    useEffect(() => {
-        if (estaPausado) return;
+    // useEffect(() => {
+    //     if (estaPausado) return;
 
-        const intervalo = setInterval(() => {
-            const proximoIndice = indiceAtual === IMAGENS.length - 1 ? 0 : indiceAtual + 1;
-            moverParaSlide(proximoIndice);
-        }, 4000);
+    //     const intervalo = setInterval(() => {
+    //         const proximoIndice = indiceAtual === IMAGENS.length - 1 ? 0 : indiceAtual + 1;
+    //         moverParaSlide(proximoIndice);
+    //     }, 4000);
 
-        return () => clearInterval(intervalo);
-    }, [indiceAtual, estaPausado]);
+    //     return () => clearInterval(intervalo);
+    // }, [indiceAtual, estaPausado]);
 
     // Função central responsável por mover o carrossel de forma suave
     const moverParaSlide = (index) => {

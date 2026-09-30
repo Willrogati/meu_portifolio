@@ -5,12 +5,12 @@ export interface menuProps {
 export default function Menu(props: menuProps) {
     return (
         <nav className="flex flex-col 
-        items-stretch 
+        items-center
+        justify-center
         p-1
         gap-0.5
         bg-zinc-50 
         font-sans
-        
         dark:bg-black">
             {props.children}
         </nav>
