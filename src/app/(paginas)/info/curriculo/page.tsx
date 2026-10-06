@@ -26,7 +26,7 @@ export default function curriculo() {
                 <li>Desenvolvimento de Portfólio Web | Next.js, TypeScript, Tailwind CSS</li>
                 <li>Concepção e deploy de uma aplicação web responsiva para demonstração de projetos pessoais</li>
             </ul>
-            <h2 className="text-2xl font-bold mt-4 mb-2">#Experiência Profissional</h2>
+            {/* <h2 className="text-2xl font-bold mt-4 mb-2">#Experiência Profissional</h2>
             <ul className="text-justify-center px-4">
                 <li>Eletricista | Elektro (Agosto de 2018 – Presente) -
                     Diagnóstico e resolução de falhas complexas em sistemas elétricos de alta criticidade
@@ -36,7 +36,7 @@ export default function curriculo() {
                     Programação e configuração de CLPs (Controladores Lógicos Programáveis), estruturando rotinas industriais Liguagem Ladder, comunicação TCP/IP e IHM baseadas em lógica booleana avançada.</li>
                 <li>Técnico Mantenedor na Apoio24Horas (2009-2011) - Configuração de redes locais de monitoramento e sistemas de segurança eletrônica.</li>
                 <li>Professor na Facsul - Colisul (2008-2009) - Facilitação de conteúdos técnicos, aprimorando comunicação corporativa e documentação técnica.</li>
-            </ul>
+            </ul> */}
             <h2 className="text-2xl font-bold mt-4 mb-2">#Formação Acadêmica e Cursos</h2>
             <ul className="text-justify-center px-4">
                 <li>Bacharelado em Engenharia de Computação | Univesp (Universidade Virtual do Estado de São Paulo) | Conclusão prevista: 2030 (Início: Julho de 2025)</li>
