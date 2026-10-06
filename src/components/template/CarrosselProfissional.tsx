@@ -85,6 +85,7 @@ export default function CarrosselProfissional() {
                         key={index}
                         className="w-[280px] sm:w-[320px] aspect-[9/16] shrink-0 snap-center relative select-none rounded-2xl overflow-hidden mx-8 shadow-2xl transition-transform duration-300"
                     >
+
                         <img
                             src={url}
                             alt={`Slide ${index + 1}`}

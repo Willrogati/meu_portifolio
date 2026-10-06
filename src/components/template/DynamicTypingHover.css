@@ -1,0 +1,43 @@
+.container {
+  display: flex ;
+  text-align: center;
+  align-items: center;
+  height: 10vh;
+  
+  
+}
+
+.dynamic-typing {
+   font-family: monospace; /* Essencial para o efeito letra por letra */
+  font-size: 2.5rem;
+  color: white;
+  overflow: hidden;
+  white-space: pre-wrap; 
+  word-break: break-word;
+  border-right: .15em solid #61dafb; /* Cursor já inicia visível */
+  width: 0; /* Começa invisível para a animação revelar */
+}
+
+
+.dynamic-typing {
+  /* Usa a variável do React para definir a largura final */
+  width: calc(var(--text-length) * 1ch); 
+  border-right-color: #61dafb;
+  
+  /* Executa as animações usando os valores dinâmicos */
+  animation: 
+    dynamic-typing-anim var(--typing-duration) steps(var(--text-length)) forwards,
+    blink-cursor 0.75s step-end infinite;
+}
+
+/* Animação que vai de 0 até a largura calculada */
+@keyframes dynamic-typing-anim {
+  from { width: 0; }
+  to { width: calc(var(--text-length) * 1ch); }
+}
+
+/* Animação do Cursor Piscando */
+@keyframes blink-cursor {
+  from, to { border-color: white; }
+  50% { border-color: black; }
+}

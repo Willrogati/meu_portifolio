@@ -25,6 +25,7 @@ export default function Pagina(props: PaginaProps) {
                 <Menu>
                     <Menu_item href="/info/sobre" label="Sobre" />
                     <Menu_item href="/info/contato" label="Contato" />
+                    <Menu_item href="/info/curriculo" label="Curriculo" />
                     <Menu_item href="/info/projetos_git" label="Projetos no GitHub" />
                 </Menu>
             </Cabecalho>
